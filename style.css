@@ -132,6 +132,7 @@ ul {
  }
  #hotel_img{
     width: 365px;
+
  }
  .artical_image_content{
     display: flex;
@@ -177,9 +178,37 @@ ul {
  .comment_section{
     display: flex;
  }
-#comment_user{
-    width: 40px;
+.comment_user1{
+    width: 30px;
     border-radius: 30px;
+    position:relative;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.comment_user2{
+    width: 30px;
+    border-radius: 30px;
+    position:relative;
+    z-index: 2;
+    top: 10px;
+    left: -9px;
+}
+.comment_user3{
+    width: 30px;
+    border-radius: 30px;
+    position:relative;
+    z-index: 3;
+    top: 10px;
+    left: -20px;
+}
+.comment_user4{
+    width: 30px;
+    border-radius: 30px;
+    position:relative;
+    z-index: 3;
+    top: 10px;
+    left: -40px;
 }
 .flexbox2{
     margin-left:40px ;
