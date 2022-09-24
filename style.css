@@ -1,0 +1,250 @@
+body{
+    background-color: crimson;
+}
+.container{
+    margin:50px 20px 40px 20px;
+    margin-left: 30px;
+    background-color: white;
+    width: 100%;
+    height: 160vh;
+}
+.header{
+    display: flex;
+    border: black 1px solid;
+}
+#logo{
+    width: 150px;
+}
+#logo_img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 70px;
+}
+#search_bar{
+    margin-left:5px;
+    width: 540px;
+    transition: margin 1s, height 1s;
+   
+}
+#search{
+    background-color: aliceblue;
+    border: 0.7px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    height: 25px;
+    
+    
+    
+
+}
+#search_bar :hover{
+    margin:15px;
+    height: 30px;
+}
+#profile{
+    display: flex;
+    /* overflow: hidden; */
+    width: 380px;
+    margin-left: 230px;
+    /* background-color: blueviolet; */
+
+}
+.profile_chat:hover{
+    background-color: aliceblue;
+}
+#chat{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 20px;
+}
+.profile_notification{
+   margin-left: 10px;
+}
+.profile_notification:hover{
+    background-color: aliceblue;
+}
+#notification{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 20px;
+}
+#user{
+    width: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+#user_name{
+    margin-left: 10px;
+    letter-spacing:1px ;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.825);
+    /* position: fixed; */
+    height: 94%;
+    overflow: auto;
+  }
+  li{
+    margin-top: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color:crimson;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:crimson;
+    color: white;
+  }
+
+  /* section */
+ .section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    /* background-color: chartreuse; */
+ }
+ .nav{
+    width: 200px;
+    height: 100%;
+
+ }
+ .artical{
+    width: 100%;
+    height: 100%;
+ }
+ #hotel_img{
+    width: 365px;
+ }
+ .artical_image_content{
+    display: flex;
+    width: 100%;
+    height: 54px;
+    background-color:aliceblue;
+ }
+ .hotel_name{
+    width: 800px;
+    /* background-color: blue; */
+ }
+ .location{
+    width: 240px;
+    margin-top: 9px;
+    text-align: end;
+ }
+ #location_link{
+    text-align: end;
+ }
+ .rating{
+    width: 70px;
+    background-color:crimson;
+    color: white;
+    text-align: center;
+ }
+ .flexbox{
+    display: flex;
+  width: 100%;
+  height: 71%;
+  /* background-color: aqua; */
+ }
+ #flexbox1{
+    width: 60%;
+    height: 90%;
+    margin-left: 30px;
+    background-color:aliceblue;
+ }
+ #flexbox1_paragraph{
+    margin: 20px;
+ }
+
+ /* comment section */
+ .comment_section{
+    display: flex;
+ }
+#comment_user{
+    width: 40px;
+    border-radius: 30px;
+}
+.flexbox2{
+    margin-left:40px ;
+}
+ 
+#comment_section1{
+    width: 200px;
+    height: 300px;
+    background-color:aliceblue;
+}
+#comment_section2{
+    width: 200px;
+    height: 300px;
+    background-color: aliceblue;
+}
+.comment_section1_review{
+    display: flex;
+}
+.submit{
+    width: 150px;
+    height: 90%;
+    /* background-color: aqua; */
+}
+#button{
+    margin-left: 70px;
+    margin-top: 100px;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+    background-color: crimson;
+}
+#button:hover{
+    /* position: absolute; */
+  opacity: 1;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+  padding-right: 25px;
+  background-color:black;
+  color:white;
+
+}
+
+@media(max-width:650px){
+    .container{
+        width: 200%;
+        height: 460vh;
+    }
+    #hotel_img{
+        width: 200px;
+     }
+     #flexbox1{
+        width: 40%;
+        height: 90%;
+        margin-left: 30px;
+        background-color:aliceblue;
+     }
+     .artical_image_content{
+        display: flex;
+        width: 90%;
+        height: 54px;
+        background-color:aliceblue;
+     }
+   
+
+    
+}
